@@ -5,11 +5,14 @@ import Container from "../../UI/Container";
 import Course from "../Course";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import { useSelector } from "react-redux";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
 const CourseContainer = () => {
+  const { courses } = useSelector((state) => state.course);
+
   return (
     <StyleCourseContainer>
       <Container>
@@ -31,21 +34,16 @@ const CourseContainer = () => {
           modules={[Navigation]}
           className="courses"
         >
-          <SwiperSlide>
-            <Course />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Course />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Course />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Course />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Course />
-          </SwiperSlide>
+          {courses.allCourses &&
+            courses.allCourses.map((el) => (
+              <SwiperSlide key={el._id}>
+                <Course
+                  name={el.title}
+                  img={el.courseThumbnail}
+                  tutor={el.tutor}
+                />
+              </SwiperSlide>
+            ))}
         </Swiper>
         <Button isPrimary={true} text="Explore all courses" />
       </Container>

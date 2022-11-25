@@ -12,9 +12,9 @@ const AllCategories = () => {
       <Container>
         <h2>Browse our courses by category</h2>
         <div className="categories">
-          <CategoryComponent name="Design" quantity={5} img={category1} />
-          <CategoryComponent name="Development" quantity={12} img={category2} />
-          <CategoryComponent name="Marketing" quantity={7} img={category3} />
+          <CategoryComponent name="Physics" quantity={5} img={category1} />
+          <CategoryComponent name="Mathematics" quantity={12} img={category2} />
+          <CategoryComponent name="Chemistry" quantity={7} img={category3} />
         </div>
       </Container>
     </StyleAllCategories>

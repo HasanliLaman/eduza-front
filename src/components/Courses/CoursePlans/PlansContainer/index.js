@@ -15,7 +15,7 @@ const PlansContainer = () => {
           <Plan
             img={basic}
             name="Basic"
-            price="300"
+            price="20"
             color="#064ea4"
             features={[
               "Access to 3 recorded lessons",

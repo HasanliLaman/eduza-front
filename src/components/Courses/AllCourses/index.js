@@ -3,8 +3,11 @@ import Course from "../Course";
 import StyleAllCourses from "./style";
 import Container from "../../UI/Container";
 import arrow from "../../../assets/images/arrow-down-yellow.svg";
+import { useSelector } from "react-redux";
 
 const AllCourses = () => {
+  const { courses } = useSelector((state) => state.course);
+
   return (
     <StyleAllCourses>
       <img src={arrow} alt="arrow" />
@@ -17,10 +20,14 @@ const AllCourses = () => {
           <button>Marketing</button>
         </div>
         <div className="courses">
-          <Course />
-          <Course />
-          <Course />
-          <Course />
+          {courses.allCourses &&
+            courses.allCourses.map((el) => (
+              <Course
+                tutor={el.tutor}
+                img={el.courseThumbnail}
+                name={el.title}
+              />
+            ))}
         </div>
       </Container>
     </StyleAllCourses>

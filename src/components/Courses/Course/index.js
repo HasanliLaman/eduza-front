@@ -1,22 +1,19 @@
 import React from "react";
 import StyleCourse from "./style";
-import courseImg from "../../../assets/images/course-img.jpeg";
-import courseTeacher from "../../../assets/images/course-teacher.jpg";
 
-const Course = () => {
+const Course = ({ name, img, tutor }) => {
   return (
     <StyleCourse>
       <div className="duration">7hr 24m</div>
-      <img src={courseImg} alt="course" />
+      <img src={`http://164.92.171.28/${img}`} alt="course" />
       <article>
-        <span>Graphic designer</span>
+        <span>{name}</span>
         <p>
           Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit.
           Felis donec massa aliquam id.
         </p>
         <div className="teacher">
-          <img src={courseTeacher} alt="teacher" />
-          <p>Kathie Corl</p>
+          <p>{tutor}</p>
         </div>
       </article>
     </StyleCourse>

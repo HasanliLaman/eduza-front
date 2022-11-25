@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutContainer from "../components/About/AboutContainer";
 import CourseContainer from "../components/Courses/CourseContainer";
 import PlansContainer from "../components/Courses/CoursePlans/PlansContainer";
@@ -7,8 +7,16 @@ import FeatureContainer from "../components/Features/FeatureContainer";
 import HeroContainer from "../components/Hero/HeroContainer";
 import StatsContainer from "../components/Statistics/StatsContainer";
 import TeacherContainer from "../components/Teachers/TeacherContainer";
+import { useDispatch } from "react-redux";
+import { fetchCourses } from "../asyncThunk";
 
 const Homepage = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchCourses());
+  }, [dispatch]);
+
   return (
     <div>
       <HeroContainer />
