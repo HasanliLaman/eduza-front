@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const config = {
-  baseURL: "http://164.92.171.28",
+  baseURL: "https://salty-island-00589.herokuapp.com/courses",
 };
 
 export const api = axios.create(config);
