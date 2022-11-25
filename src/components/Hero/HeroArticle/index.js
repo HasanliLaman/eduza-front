@@ -1,6 +1,7 @@
 import React from "react";
 import StyleHeroArticle from "./style";
 import Button from "../../UI/Button";
+import { Link } from "react-router-dom";
 
 const HeroArticle = () => {
   return (
@@ -11,7 +12,9 @@ const HeroArticle = () => {
         right skills to be prepared for tomorrow.
       </p>
       <div className="buttons">
-        <Button text="Explore courses" isPrimary={true} />
+        <Link to="/courses">
+          <Button text="Explore courses" isPrimary={true} />
+        </Link>
         <Button text="Learn more" isPrimary={false} />
       </div>
     </StyleHeroArticle>
