@@ -10,11 +10,11 @@ const AllCategories = () => {
   return (
     <StyleAllCategories>
       <Container>
-        <h2>Browse our courses by category</h2>
+        <h2>Müxtəlif kategoriyalı kurslara baxın</h2>
         <div className="categories">
-          <CategoryComponent name="Physics" quantity={5} img={category1} />
-          <CategoryComponent name="Mathematics" quantity={12} img={category2} />
-          <CategoryComponent name="Chemistry" quantity={7} img={category3} />
+          <CategoryComponent name="Fizika" quantity={5} img={category1} />
+          <CategoryComponent name="Kimya" quantity={12} img={category2} />
+          <CategoryComponent name="Riaziyyat" quantity={7} img={category3} />
         </div>
       </Container>
     </StyleAllCategories>

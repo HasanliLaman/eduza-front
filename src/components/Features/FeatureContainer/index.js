@@ -12,11 +12,11 @@ const FeatureContainer = () => {
     <StyleFeatureContainer>
       <img src={arrow} alt="arrow" />
       <Container>
-        <h2>Why learn with our courses?</h2>
+        <h2>Niyə bizim kurslarımızla öyrənməlisiniz?</h2>
         <div className="features">
-          <Feature title={"1. Learn"} img={learn} />
-          <Feature title={"2. Graduate"} img={graduate} />
-          <Feature title={"3. Work"} img={work} />
+          <Feature title={"1. Öyrən"} img={learn} />
+          <Feature title={"2. Bitir"} img={graduate} />
+          <Feature title={"3. İşlə"} img={work} />
         </div>
       </Container>
     </StyleFeatureContainer>

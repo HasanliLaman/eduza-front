@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 const HeroArticle = () => {
   return (
     <StyleHeroArticle>
-      <h1>Grow your skills, define your future</h1>
+      <h1>Eduza ilə gələcəyə yatırım edin</h1>
       <p>
         Presenting Academy, the tech school of the future. We teach you the
         right skills to be prepared for tomorrow.
       </p>
       <div className="buttons">
         <Link to="/courses">
-          <Button text="Explore courses" isPrimary={true} />
+          <Button text="Kurslara baxın" isPrimary={true} />
         </Link>
-        <Button text="Learn more" isPrimary={false} />
+        <Button text="Daha ətraflı" isPrimary={false} />
       </div>
     </StyleHeroArticle>
   );

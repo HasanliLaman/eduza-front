@@ -9,11 +9,12 @@ const Courses = () => {
 
   useEffect(() => {
     dispatch(fetchCourses());
+    window.scrollTo(0, 0);
   }, [dispatch]);
 
   return (
     <div>
-      <Banner text={"Courses"} primary={true} />
+      <Banner text={"Kurslar"} primary={true} />
       <AllCourses />
     </div>
   );

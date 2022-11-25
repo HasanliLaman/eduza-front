@@ -8,7 +8,7 @@ const Events = (props) => {
       <img src={props.img} alt="event" />
       <div>
         <article>
-          <p>Sunday 5:00 pm - 6:00 pm EDT</p>
+          <p>Cümə 15:00 - 17:00 pm </p>
           <span>{props.title}</span>
           <p>
             Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit.

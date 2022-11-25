@@ -12,34 +12,34 @@ const AllEvents = () => {
     <StyleAllEvents>
       <img src={arrow} alt="arrow" />
       <Container>
-        <h1>All Events</h1>
+        <h1>Bütün Dərslər</h1>
         <div className="categories">
-          <button className="active">All</button>
-          <button>Development</button>
-          <button>Design</button>
-          <button>Marketing</button>
+          <button className="active">Hamısı</button>
+          <button>Fizika</button>
+          <button>Kimya</button>
+          <button>Riyaziyyat</button>
         </div>
         <div className="events">
           <Events
             img={marketing}
-            month="July"
+            month="İyul"
             date="20"
-            title="Social Media Marketing Masterclass"
-            category="Marketing"
+            title="Single variable and multivariable calculus"
+            category="Riyaziyyat"
           />
           <Events
             img={design}
-            month="August"
+            month="Avqust"
             date="07"
-            title="Brand & Identity Design QA with Sophie Moore"
-            category="Design"
+            title="Quantum mechanics and quantum computing"
+            category="Fizika"
           />
           <Events
             img={development}
-            month="March"
+            month="Mart"
             date="17"
-            title="Landing Page Optimization Masterclass"
-            category="Development"
+            title="Organic and inorganic chemistry"
+            category="Kimya"
           />
         </div>
       </Container>

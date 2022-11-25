@@ -9,7 +9,7 @@ const AboutList = () => {
     <StyleAboutList>
       <li>
         <img src={teacher} alt="Expert teachers" />
-        <h3>Industry expert teachers</h3>
+        <h3>Ekspert müıllimlər</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit.
           Felis donec massa aliquam id dolor .
@@ -17,7 +17,7 @@ const AboutList = () => {
       </li>
       <li>
         <img src={uptodate} alt="Up-to-date course content" />
-        <h3>Up-to-date course content</h3>
+        <h3>Müasir kurslar</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit.
           Felis donec massa aliquam id dolor .
@@ -25,7 +25,7 @@ const AboutList = () => {
       </li>
       <li>
         <img src={student} alt="Students community" />
-        <h3>Students community</h3>
+        <h3>Tələbə icması</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit.
           Felis donec massa aliquam id dolor .

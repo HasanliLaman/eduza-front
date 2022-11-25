@@ -14,19 +14,19 @@ const NavbarContainer = () => {
         <img src={logo} alt="logo" />
         <ul className={open ? "active" : ""}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Ana Səhifə</Link>
           </li>
           <li>
-            <Link to="/">About Us</Link>
+            <Link to="/">Haqqımızda</Link>
           </li>
           <li>
-            <Link to="/courses">Courses</Link>
+            <Link to="/courses">Kurslar</Link>
           </li>
           <li>
-            <Link to="/events">Events</Link>
+            <Link to="/events">Canlı Dərslər</Link>
           </li>
           <li>
-            <Link to="/teachers">Teachers</Link>
+            <Link to="/teachers">Müəllimlər</Link>
           </li>
         </ul>
         <div className="icons">

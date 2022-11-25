@@ -12,12 +12,12 @@ const AllCourses = () => {
     <StyleAllCourses>
       <img src={arrow} alt="arrow" />
       <Container>
-        <h1>All Courses</h1>
+        <h1>Bütün Kurslar</h1>
         <div className="categories">
-          <button className="active">All</button>
-          <button>Development</button>
-          <button>Design</button>
-          <button>Marketing</button>
+          <button className="active">Hamısı</button>
+          <button>Fizika</button>
+          <button>Kimya</button>
+          <button>Riyaziyyat</button>
         </div>
         <div className="courses">
           {courses.allCourses &&

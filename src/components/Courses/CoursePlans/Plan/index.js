@@ -6,7 +6,7 @@ const Plan = (props) => {
     <StylePlan>
       <img alt="icon" src={props.img} />
       <header>{props.name}</header>
-      <p>{props.price} AZN per month</p>
+      <p>Hər ay {props.price} AZN</p>
       <ul>
         {props.features.map((el) => (
           <li key={el}>

@@ -10,7 +10,7 @@ const PlansContainer = () => {
   return (
     <StylePlansContainer>
       <Container>
-        <h2>Our prices</h2>
+        <h2>Təhsil paketləri</h2>
         <div className="plans">
           <Plan
             img={basic}
@@ -18,7 +18,7 @@ const PlansContainer = () => {
             price="20"
             color="#064ea4"
             features={[
-              "Access to 3 recorded lessons",
+              "3 rekord olunm",
               "Access to the quizzes of 3 lessons",
               "No live stream enrollment",
             ]}

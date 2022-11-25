@@ -13,29 +13,29 @@ const FooterContainer = () => {
           <Newsletter />
           <ul>
             <li>
-              <header>Pages</header>
+              <header>Keçid</header>
             </li>
-            <li>Home</li>
-            <li>Courses</li>
-            <li>Register</li>
-            <li>Events</li>
+            <li>Ana səhifə</li>
+            <li>Kurslar</li>
+            <li>Qeydiyyat</li>
+            <li>Canlı dərslər</li>
           </ul>
           <ul>
             <li>
-              <header>Details</header>
+              <header>Detallar</header>
             </li>
-            <li>Pricing</li>
-            <li>Teachers</li>
-            <li>Reviews</li>
-            <li>About</li>
+            <li>Qiymətlər</li>
+            <li>Müəllimlər</li>
+            <li>Rəylər</li>
+            <li>Haqqımızda</li>
           </ul>
           <ul>
             <li>
-              <header>Contact</header>
+              <header>Əlaqə</header>
             </li>
             <li>Baku, AZ 10020</li>
             <li>eduza@example.com</li>
-            <li>+9945555555</li>
+            <li>+9945554422</li>
           </ul>
         </div>
       </Container>

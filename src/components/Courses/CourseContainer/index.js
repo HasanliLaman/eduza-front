@@ -16,7 +16,7 @@ const CourseContainer = () => {
   return (
     <StyleCourseContainer>
       <Container>
-        <h2>Browse our popular courses</h2>
+        <h2>Populyar kurslarımız</h2>
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -45,7 +45,7 @@ const CourseContainer = () => {
               </SwiperSlide>
             ))}
         </Swiper>
-        <Button isPrimary={true} text="Explore all courses" />
+        <Button isPrimary={true} text="Bütün kurslar" />
       </Container>
     </StyleCourseContainer>
   );

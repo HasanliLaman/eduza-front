@@ -9,7 +9,7 @@ const AboutContainer = () => {
   return (
     <StyleAboutContainer>
       <Container>
-        <h2>About Education</h2>
+        <h2>Haqqımızda</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
@@ -18,7 +18,7 @@ const AboutContainer = () => {
           <AboutList />
           <img src={aboutImg} alt="about" />
         </div>
-        <Button isPrimary={false} text="About education" />
+        <Button isPrimary={false} text="Daha ətraflı" />
       </Container>
     </StyleAboutContainer>
   );

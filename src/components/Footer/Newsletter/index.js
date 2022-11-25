@@ -7,15 +7,15 @@ const Newsletter = () => {
     <StyleNewsletter>
       <div>
         <img src={mail} alt="mail" />
-        <header>Subscribe to our newsletter</header>
+        <header>Xəbər bülletenimizə abunə olun</header>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmo.
         </p>
       </div>
       <div className="newsletter">
-        <input type="text" placeholder="Enter your mail" />
-        <button>Submit</button>
+        <input type="text" placeholder="Emailinizi daxil edin" />
+        <button>Göndər</button>
       </div>
     </StyleNewsletter>
   );
