@@ -15,10 +15,10 @@ const PlansContainer = () => {
           <Plan
             img={basic}
             name="Basic"
-            price="20"
+            price="79"
             color="#064ea4"
             features={[
-              "3 rekord olunm",
+              "Access to 3 recorded lessons",
               "Access to the quizzes of 3 lessons",
               "No live stream enrollment",
             ]}
@@ -26,11 +26,11 @@ const PlansContainer = () => {
           <Plan
             img={premium}
             name="Premium"
-            price="90"
+            price="169"
             color="#fcdf69"
             features={[
-              "Access to 6 recorded lessons",
-              "Access to all the quizzes",
+              "Access to 5 recorded lessons",
+              "Access to the quizzes of 5 lessons",
               "Access to 2 live streaming lessons",
               "Additional reading materials and tests",
               "Weekly generated exams",
@@ -39,12 +39,12 @@ const PlansContainer = () => {
           <Plan
             img={advanced}
             name="Advanced"
-            price="120"
+            price="289"
             color="#f99d77"
             features={[
-              " Access to all recorded lessons",
+              "Access to 5 recorded lessons",
               "Access to all the quizzes",
-              "Access to 6 live streaming lessons",
+              "Access to 5 live streaming lessons",
               "Additional reading materials and tests",
               "Weekly generated exams",
               "Private mentor to track improvement",
